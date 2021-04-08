@@ -57,11 +57,11 @@ namespace onenet {
 
     //% blockId=onenet_cmd block="cmd DeviceID%devid CmdData%cd"
     //% weight=80
-    export function onenet_cmd(devid: string, cd: string): void {
+    export function onenet_cmd(devid: string, dp: string): void {
         if (!isRequestConfiged){
             configRequest()
         }
-        kittenwifi.rest_request('POST', `/cmd?device_id=/${devid}/&/${cd}`)
+        kittenwifi.rest_request('POST', `/cmd?device_id=/${devid}/&/${dp}`)
 
     }
 
