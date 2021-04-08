@@ -61,7 +61,7 @@ namespace onenet {
         if (!isRequestConfiged){
             configRequest()
         }
-        kittenwifi.rest_request('POST', `/cmd?device_id=/${devid}/&/${dp}`)
+        kittenwifi.rest_request_cmd('POST', `/cmd?device_id=/${devid}/&/${dp}`)
 
     }
 
