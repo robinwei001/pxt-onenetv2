@@ -1,5 +1,5 @@
 {
-    "name": "onenet",
+    "name": "onenetv2",
     "version": "0.1.6",
     "description": "Extension for ONENET iot based on kittenbot wifi module",
     "license": "MIT",
