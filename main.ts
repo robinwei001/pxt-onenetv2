@@ -2,7 +2,7 @@
 Riven
 Onenet extension based on kittenbot's wifi module ()
 load dependency
-"onenet": "file:../pxt-onenet"
+"onenet": "file:../pxt-onenetv2"
 */
 
 //% color="#00bbff" weight=10 icon="\uf1fa"
