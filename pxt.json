@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "kittenwifi": "https://github.com/robinwei001/pxt-kittenwifiv2"
+        "kittenwifi": "github:robinwei001/pxt-kittenwifiv2#v0.2.4"
     },
     "files": [
         "README.md",
